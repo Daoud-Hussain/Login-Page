@@ -11,9 +11,10 @@ body{
     text-align: center;
 }
 
-#logo{
+.fa-weibo{
     font-size: 80px;
     color: white;
+    cursor: pointer;
 }
 
 h1{
@@ -22,13 +23,6 @@ h1{
     color: white;
 }
 
-p{
-    color: white;
-    font-size: 20px;
-}
-span{
-    font-weight: 900;
-}
 input{
     margin: 1px;
     width: 300px;
@@ -48,4 +42,11 @@ button{
     font-weight: bold;
     color: white;
     border-radius: 10px;
+    cursor: pointer;
+}
+
+p{
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
 }
